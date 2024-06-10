@@ -3,7 +3,7 @@ import './Team.css';
 
 function Team() {
   const teamMembers = [
-    { name: 'Justin Ongeri', title: 'Director of Digital', img: 'https://via.placeholder.com/100' },
+    { name: 'Justin Ongeri', title: 'Director of Digital', img: '/images/person.png' },
     { name: 'Job Ondicho', title: 'Operations', img: 'https://via.placeholder.com/100' },
     { name: 'Carol Wangui', title: 'Relationship Manager', img: 'https://via.placeholder.com/100' },
     { name: 'Henry Getaro', title: 'Community Manager', img: 'https://via.placeholder.com/100' },

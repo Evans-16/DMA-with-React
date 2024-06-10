@@ -10,8 +10,9 @@
     color: #fff;
 }
 
-header h1 {
+.header h1 {
     margin: 0;
+    animation: colorChange 10s infinite, zoominout 25s infinite;
 }
 
 nav ul {
@@ -38,7 +39,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #7A9E9F;
+    background: #ff004f;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -48,3 +49,20 @@ nav ul li a::after {
 nav ul li a:hover::after {
     width: 100%;
 }
+@keyframes colorChange {
+    0%, 100% {
+      color: #fff; /* Start color */
+    }
+    50% {
+      color: #ff004f; /* Change to this color */
+    }
+  }
+  
+  @keyframes zoominout {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.9);
+    }
+  }
