@@ -1,0 +1,22 @@
+#services {
+    padding: 20px;
+    text-align: center;
+}
+
+#services h2 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.service {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
