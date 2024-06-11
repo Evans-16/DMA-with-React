@@ -8,15 +8,23 @@
     font-size: 24px;
 }
 
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 .service {
+    flex: 1 1 30%;
+    max-width: 30%;
+    box-sizing: border-box;
     display: inline-block;
     text-align: center;
     margin: 20px;
-    width: 200px;
 }
 
 .service img {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
+    width: 250px;
+    height: 320px;
+    border-radius: 20px;
 }

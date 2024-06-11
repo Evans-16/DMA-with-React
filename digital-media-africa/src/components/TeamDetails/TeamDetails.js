@@ -1,8 +1,7 @@
 import React from 'react';
-import './Team.css';
-import { Link } from 'react-router-dom';
+import './TeamDetails.css';
 
-function Team() {
+function TeamDetails() {
   const teamMembers = [
     { name: 'Justin Ongeri', title: 'Director of Digital', img: '/images/person.png' },
     { name: 'Job Ondicho', title: 'Operations', img: 'https://via.placeholder.com/100' },
@@ -11,13 +10,11 @@ function Team() {
     { name: 'Johnson Kamau', title: 'Media Buyer', img: 'https://via.placeholder.com/100' },
   ];
 
-  const initialMembers = teamMembers.slice(0,4);
-
   return (
-    <section id="team">
-      <h2>Meet the Team</h2>
-      <div className="team-container">
-        {initialMembers.map((member, index) => (
+    <section id="team-details">
+      <h2 className='team-details-heading'>Our Full Team</h2>
+      <div className="team-details-container">
+        {teamMembers.map((member, index) => (
           <div key={index} className="team-member">
             <img src={member.img} alt={member.name} />
             <p>{member.name}</p>
@@ -25,11 +22,8 @@ function Team() {
           </div>
         ))}
       </div>
-      <Link to="/team-details">
-         <button>More About Us</button>
-      </Link>
     </section>
   );
 }
 
-export default Team;
+export default TeamDetails;

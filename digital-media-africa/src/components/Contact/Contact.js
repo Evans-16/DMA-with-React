@@ -11,24 +11,25 @@ function Contact() {
     setIsSubmitting(true);
     setMsg('Sending message...');
 
-    fetch('https://script.google.com/macros/s/AKfycbwkG2mtvIST_qMIP0QHr2glwMt6NlvcOEsVenjwep6uJ9cZ-4BbHyZwdYR7KgOhTUUn4Q/exec', {
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzeqWzGwqR6sBwj1_j0unjHl2wsUCftAAJdMD0fw2fkrsFT7AVuWbaXSsiA8x44LAoZ/exec';
+
+    fetch(scriptURL, {
       method: 'POST',
       body: new FormData(form),
     })
+      .then(response => response.json())
       .then(response => {
-        setMsg('Message sent successfully');
-        form.reset();
-        setTimeout(() => {
-          setMsg('');
-          setIsSubmitting(false);
-        }, 5000);
+        if (response.result === 'success') {
+          setMsg('Message sent successfully');
+          form.reset();
+        } else {
+          setMsg('Error sending message');
+        }
+        setIsSubmitting(false);
       })
       .catch(error => {
         setMsg('Error sending message');
-        setTimeout(() => {
-          setMsg('');
-          setIsSubmitting(false);
-        }, 5000);
+        setIsSubmitting(false);
       });
   };
 
