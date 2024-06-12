@@ -15,11 +15,11 @@ function Header() {
       {!isDetailPage() && (
         <nav>
           <ul>
-            <li><Link to="#home">Home</Link></li>
-            <li><Link to="#team">Team</Link></li>
-            <li><Link to="#services">Services</Link></li>
-            <li><Link to="#clients">Clients</Link></li>
-            <li><Link to="#contact">Contact</Link></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#team">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><Link to="/FAQs">FAQs</Link></li>
           </ul>
         </nav>

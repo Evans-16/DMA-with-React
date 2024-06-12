@@ -26,7 +26,7 @@ function Team() {
         ))}
       </div>
       <Link to="/team-details">
-         <button>More About Us</button>
+         <button>About Us</button>
       </Link>
     </section>
   );

@@ -12,7 +12,7 @@
   }
   
   .contact-left p {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
   }
@@ -61,10 +61,14 @@
   .form-container {
     width: 100%;
     max-width: 700px;
-    background-color: #f1f1f1;
+    background-color: #e6d7d7b0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-container p {
+    font-size: 24px;
   }
   
   .form-container form {
@@ -87,7 +91,7 @@
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
-    background-color: #ff004f;
+    background-color: #4b4848f8;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -95,7 +99,7 @@
   }
   
   .form-container form button:hover {
-    background-color: #7A9E9F;
+    background-color: #ff004f;
   }
   
   #msg {

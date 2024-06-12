@@ -7,7 +7,7 @@ function Services() {
     { title: 'Media Buying', img: 'images/medbuy.png', details: ['Media Planning', 'Optimization'] },
     { title: 'Digital Marketing', img: 'images/SMM.jpg', details: ['Social media marketing', 'Marketing Campaigns'] },
     { title: 'Web Development', img: 'images/web.jpg', details: ['Web Design', 'SEO'] },
-    //{ title: 'SEO/SEM', img: 'images/SEO.jpg', details: ['SEO','SEO']},
+    { title: 'Content Creation', img: 'images/web.jpg', details: ['Tiktok content', 'Youtube content'] },
   ];
 
   return (
@@ -25,7 +25,7 @@ function Services() {
         ))}
       </div>
       <Link to="/services-details">
-         <button>More About Our Services</button>
+         <button>Our Services</button>
       </Link>
     </section>
   );

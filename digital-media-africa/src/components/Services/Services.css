@@ -5,7 +5,8 @@
 
 #services h2 {
     margin: 20px 0;
-    font-size: 24px;
+    font-size: 30px;
+    margin-top: 60px;
 }
 
 .services-container {
@@ -16,7 +17,7 @@
 
 .service {
     flex: 1 1 30%;
-    max-width: 30%;
+    max-width: 20%;
     box-sizing: border-box;
     display: inline-block;
     text-align: center;

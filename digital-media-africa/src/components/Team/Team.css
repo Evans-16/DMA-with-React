@@ -5,7 +5,8 @@
 
 #team h2 {
   margin: 20px 0;
-  font-size: 24px;
+  font-size: 30px;
+  margin-top: 60px;
 }
 
 .team-container {
@@ -30,16 +31,17 @@
 }
 
 button {
-  background-color: red;
-  color: white; 
+  background-color: #4b4848f8;
+  color: black; 
   padding: 10px 20px; 
   font-size: 16px; 
   border: none; 
-  border-radius: 5px; 
+  border-radius: 10px; 
   cursor: pointer; 
+  margin-top: 40px;
 }
 
 button:hover {
-  background-color: aqua;
+  background-color: #ff004f;
   color: black; 
 }

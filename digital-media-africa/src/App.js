@@ -10,6 +10,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import './App.css';
 import ServiceDetails from './components/ServicesDetails/ServiceDetails';
+import FAQs from './components/FAQs/FAQs';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             } />
             <Route path="/team-details" element={<TeamDetails />} />
             <Route path="/services-details" element={<ServiceDetails />} />
+            <Route path="/faqs" element={<FAQs />} />
           </Routes>
         </main>
         <Footer />

@@ -25,11 +25,18 @@ function Contact() {
         } else {
           setMsg('Error sending message');
         }
-        setIsSubmitting(false);
+
+        setTimeout(() => {
+          setMsg('');
+          setIsSubmitting(false);
+        }, 2000); // Message disappears after 5 seconds
       })
       .catch(error => {
         setMsg('Error sending message');
-        setIsSubmitting(false);
+        setTimeout(() => {
+          setMsg('');
+          setIsSubmitting(false);
+        }, 2000); // Message disappears after 5 seconds
       });
   };
 
@@ -53,12 +60,13 @@ function Contact() {
       </div>
       <div className="contact-right">
         <div className="form-container">
+          <p>Fill out this form and we will reach out to you</p>
           <form onSubmit={handleSubmit}>
             <input type="text" name="Name" placeholder="Your Name" required />
             <input type="email" name="Email" placeholder="Your Email" required />
             <input type="text" name="Number" placeholder="Your Number" required />
             <textarea name="Message" rows="3" placeholder="Your Message"></textarea>
-            <button type="submit" disabled={isSubmitting}>Send Message</button>
+            {!isSubmitting && <button type="submit">Send Message</button>}
             {msg && <span id="msg" className={isSubmitting ? 'sending' : msg === 'Message sent successfully' ? 'success' : 'error'}>{msg}</span>}
           </form>
         </div>

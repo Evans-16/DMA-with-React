@@ -6,6 +6,12 @@
     width: 100%;
 }
 
+#clients h2 {
+    margin: 20px 0;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
 .carousel {
     display: flex;
     justify-content: center;
@@ -29,4 +35,40 @@
 .client img {
     width: 100px;
     height: 100px;
+}
+
+.testimonials-container {
+    position: relative;
+    height: 150px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial.active {
+    display: flex;
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial h4 {
+    font-weight: bold;
 }
