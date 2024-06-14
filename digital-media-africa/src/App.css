@@ -1,6 +1,3 @@
-/* App.css */
-
-/* Reset styles and basic styling */
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +5,8 @@
 }
 
 html {
-  scroll-behavior: smooth; /* Smooth scrolling behavior */
-  height: 100%; /* Ensure html element fills viewport height */
+  scroll-behavior: smooth; 
+  height: 100%; 
 }
 
 body {
@@ -25,7 +22,6 @@ body {
 }
 
 main {
-  flex: 1; /* Grow main content to fill remaining space */
+  flex: 1; 
   padding: 20px;
 }
-

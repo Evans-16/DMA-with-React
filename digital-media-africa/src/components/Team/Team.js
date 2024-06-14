@@ -4,18 +4,18 @@ import { Link } from 'react-router-dom';
 
 function Team() {
   const teamMembers = [
-    { name: 'Justin Ongeri', title: 'Director of Digital', img: '/images/person.png' },
-    { name: 'Job Ondicho', title: 'Operations', img: 'https://via.placeholder.com/100' },
+    { name: 'Justin Ongeri', title: 'Director of Digital', img: '/images/justin.png' },
+    { name: 'Job Ondicho', title: 'Operations', img: '/images/job.png' },
     { name: 'Carol Wangui', title: 'Relationship Manager', img: 'https://via.placeholder.com/100' },
-    { name: 'Henry Getaro', title: 'Community Manager', img: 'https://via.placeholder.com/100' },
-    { name: 'Johnson Kamau', title: 'Media Buyer', img: 'https://via.placeholder.com/100' },
+    { name: 'Henry Getaro', title: 'Community Manager', img: '/images/henry.png' },
+    { name: 'Johnson Kamau', title: 'Media Buyer', img: '/images/john.png' },
   ];
 
   const initialMembers = teamMembers.slice(0,4);
 
   return (
     <section id="team">
-      <h2>Meet the Team</h2>
+      <h2>Meet The Team</h2>
       <div className="team-container">
         {initialMembers.map((member, index) => (
           <div key={index} className="team-member">

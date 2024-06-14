@@ -29,14 +29,14 @@ function Contact() {
         setTimeout(() => {
           setMsg('');
           setIsSubmitting(false);
-        }, 2000); // Message disappears after 5 seconds
+        }, 2000); 
       })
       .catch(error => {
         setMsg('Error sending message');
         setTimeout(() => {
           setMsg('');
           setIsSubmitting(false);
-        }, 2000); // Message disappears after 5 seconds
+        }, 2000); 
       });
   };
 
@@ -44,9 +44,14 @@ function Contact() {
     <section id="contact">
       <div className="contact-left">
         <h1 className="sub-title">Contact Us</h1>
-        <p><i className="fa fa-phone"></i>0713740145</p>
-        <p><i className="fa fa-envelope"></i>digitalmediaafrica@gmail.com</p>
-        <p><i className="fa fa-whatsapp"></i>0713740145</p>
+        <p><i className="fa fa-phone"></i>+254 727 552517</p>
+        <p><i className="fa fa-envelope"></i>digitalmediaafrica6@gmail.com</p>
+        <p><i className="fa fa-whatsapp"></i>+254 727 552517</p>
+        <div className="location">
+          <h2>Our Location</h2>
+          <p><i className="fa-solid fa-location-dot"></i>Westcom Point, Off Waiyaki Way,</p>
+          <p>Westlands, Nairobi</p>
+        </div>
         <div className="contact-left-connect">
           <p>Connect with us</p>
         </div>

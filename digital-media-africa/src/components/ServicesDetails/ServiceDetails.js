@@ -8,12 +8,13 @@ function ServiceDetails() {
     }, []);
 
     const services = [
-       { title: 'Media Buying', img: 'images/medbuy.png', details: 'Our team excels in targeting audiences and maximizing brand visibility through strategic ad placements on Meta platforms like Facebook.' },
-       { title: 'Digital Marketing', img: 'images/SMM.jpg', details: 'We create and manage top-performing social media campaigns to help businesses grow and meet their goals.' },
+       { title: 'Digital Media Buying', img: 'images/medbuy.png', details: 'Innovative and experienced in developing and deploying digital strategies for brands across Africa, larger EMEA and the Islands.' },
+       { title: 'Digital Media Strategy Development', img: 'images/SMM.jpg', details: 'Focused on measurable impact, driving interaction, and building ROAS (ROI)-focused projects.' },
        { title: 'Web Development', img: 'images/web.jpg', details: 'Our web development services include designing, building, and maintaining websites that are fast, secure, and mobile-friendly.' },
        { title: 'SEO/SEM', img: 'images/SEO.jpg', details: 'We improve your website’s visibility on search engines through effective SEO and SEM strategies.' },
        { title: 'Content Creation', img: 'images/web.jpg', details: 'Our content creation team produces high-quality, engaging content that aligns with your brand’s voice and goals.' },
-       { title: 'Analytics', img: 'images/web.jpg', details: 'We provide comprehensive analytics services to help you track, analyze, and optimize your marketing performance.' },
+       { title: 'Social Media Management', img: 'images/web.jpg', details: 'We provide comprehensive analytics services to help you track, analyze, and optimize your marketing performance.' },
+       { title: 'Digital Marketing Training', img: 'images/web.jpg', details: 'We provide training on digital marketing.' },
     ];
 
     return (
