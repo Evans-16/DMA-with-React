@@ -49,7 +49,7 @@ function Contact() {
         <p><i className="fa fa-whatsapp"></i>+254 727 552517</p>
         <div className="location">
           <h2>Our Location</h2>
-          <p><i className="fa-solid fa-location-dot"></i>Westcom Point, Off Waiyaki Way,</p>
+          <p><i className="fa-solid fa-location-dot"></i>Westcom Point, Off Waiyaki Way, Nairobi</p>
         </div>
         <div className="contact-left-connect">
           <p>Connect with us</p>

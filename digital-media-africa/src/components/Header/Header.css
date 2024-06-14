@@ -122,6 +122,6 @@
       transform: scale(1);
   }
   50% {
-      transform: scale(1.9);
+      transform: scale(0.9);
   }
 }

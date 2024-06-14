@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 function Services() {
   const services = [
-    { title: 'Media Buying', img: 'images/medbuy.png', details: ['Media Planning', 'Optimization'] },
-    { title: 'Digital Marketing', img: 'images/SMM.jpg', details: ['Social media marketing', 'Marketing Campaigns'] },
-    { title: 'Web Development', img: 'images/web.jpg', details: ['Web Design', 'SEO'] },
-    { title: 'Content Creation', img: 'images/web.jpg', details: ['Tiktok content', 'Youtube content'] },
+    { title: 'Media Buying', img: 'images/service/media.jfif', details: ['Media Planning', 'Optimization'] },
+    { title: 'Digital Marketing', img: 'images/service/marketing.jfif', details: ['Social media marketing', 'Marketing Campaigns'] },
+    { title: 'Web Development', img: 'images/service/web.jfif', details: ['Web Design', 'SEO'] },
+    { title: 'Content Creation', img: 'images/service/content.jfif', details: ['Tiktok content', 'Youtube content'] },
   ];
 
   return (

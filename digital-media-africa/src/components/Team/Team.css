@@ -1,12 +1,15 @@
 #team {
   padding: 20px;
   text-align: center;
+  background-color: #333;
+  color: #fff;
 }
 
 #team h2 {
   margin: 20px 0;
   font-size: 30px;
   margin-top: 60px;
+  color: #fff;
 }
 
 .team-container {
