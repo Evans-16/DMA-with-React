@@ -50,7 +50,6 @@ function Contact() {
         <div className="location">
           <h2>Our Location</h2>
           <p><i className="fa-solid fa-location-dot"></i>Westcom Point, Off Waiyaki Way,</p>
-          <p>Westlands, Nairobi</p>
         </div>
         <div className="contact-left-connect">
           <p>Connect with us</p>

@@ -16,7 +16,7 @@ const FAQs = () => {
     },
     {
       question: 'How can I contact Digital Media Africa?',
-      answer: 'You can contact us via email at digitalmediaafrica@gmail.com',
+      answer: 'You can contact us via email at digitalmediaafrica6@gmail.com',
     },
     {
       question: 'What services does Digital Media Africa offer?',
