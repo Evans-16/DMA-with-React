@@ -20,7 +20,7 @@ function Team() {
         {initialMembers.map((member, index) => (
           <div key={index} className="team-member">
             <img src={member.img} alt={member.name} />
-            <p>{member.name}</p>
+            <h3>{member.name}</h3>
             <p>{member.title}</p>
           </div>
         ))}

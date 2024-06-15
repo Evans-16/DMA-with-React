@@ -3,7 +3,7 @@
   margin-left: 0;
   margin-right: 0;
   box-sizing: border-box;
-  color: #fff;
+  color: #333;
 }
 
 .company-overview,
@@ -32,6 +32,10 @@
   text-align: center;
 }
 
+.team-member h3 {
+  font-style: italic;
+}
+
 .team-member img {
   width: 250px;
   height: 350px;
@@ -45,4 +49,30 @@
 
 .slick-dots {
   bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+  .company-overview,
+  .mission,
+  .core-values {
+    font-size: 35px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .company-overview,
+  .mission,
+  .core-values {
+    font-size: 28px; 
+    padding: 15px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .company-overview,
+  .mission,
+  .core-values {
+    font-size: 20px; 
+    padding: 10px; 
+  }
 }

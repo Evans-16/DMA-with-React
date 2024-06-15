@@ -1,6 +1,6 @@
 #service-details-page {
     padding: 20px;
-    background-color: grey; 
+    background-color: #fff; 
     color: #fff; 
 }
 
@@ -8,6 +8,7 @@
     text-align: center;
     font-size: 28px; 
     margin-bottom: 40px;
+    color: #333;
 }
 
 .service-details-container {
@@ -33,7 +34,7 @@
 
 .service-detail-image {
     flex: 1;
-    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 .service-detail-image img {
@@ -67,5 +68,30 @@
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .service-detail {
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .service-detail-content {
+        flex: 2;
+        text-align: left;
+    }
+
+    .service-detail-image {
+        margin-bottom: 20px;
+    }
+
+    .service-detail-content {
+        text-align: center;
+    }
+
+    .service-detail-image img {
+        width: 100%;
+        max-width: 100%;
     }
 }

@@ -34,7 +34,7 @@ const testimonials = [
   { text: "This company has transformed our business. Their services are unmatched!", author: "John Doe, CEO of Company...." },
   { text: "Exceptional quality and attention to detail. Highly recommend!", author: "Jane Smith, Marketing Director at ABC Corp" },
   { text: "We've seen significant growth since partnering with them. Truly outstanding!", author: "Alice Johnson, COO of...." },
-  { text: "We've seen significant growth since partnering with them. Truly outstanding!", author: "Ben Afleck, COO of Coca Cola" }
+  //{ text: "We've seen significant growth since partnering with them. Truly outstanding!", author: "Ben Afleck, COO of Coca Cola" }
 ];
 
 function Clients() {

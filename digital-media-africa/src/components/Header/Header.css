@@ -16,13 +16,16 @@
   animation: colorChange 10s infinite, zoominout 25s infinite;
 }
 
-.menu-toggle {
+.header .menu-toggle {
   display: none;
   font-size: 24px;
   background: none;
   border: none;
   color: #fff;
   cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 0.5px;
 }
 
 .nav {
@@ -36,7 +39,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column; /* Stack items vertically on small screens */
+  flex-direction: column;
   width: 100%;
 }
 
@@ -74,54 +77,54 @@
 
 /* Media queries for tablets and larger screens */
 @media (min-width: 768px) {
-  .menu-toggle {
-      display: none;
+  .header .menu-toggle {
+    display: none;
   }
 
   .nav {
-      flex-direction: row;
-      width: auto;
+    flex-direction: row;
+    width: auto;
   }
 
   .nav ul {
-      flex-direction: row;
+    flex-direction: row;
   }
 
   .nav ul li {
-      display: inline-block;
-      margin-left: 20px;
-      margin: 0 10px;
+    display: inline-block;
+    margin-left: 20px;
+    margin: 0 10px;
   }
 }
 
 @media (max-width: 767px) {
-  .menu-toggle {
-      display: block;
+  .header .menu-toggle {
+    display: block;
   }
 
   .nav {
-      display: none;
+    display: none;
   }
 
   .nav.open {
-      display: flex;
+    display: flex;
   }
 }
 
 @keyframes colorChange {
   0%, 100% {
-      color: #fff;
+    color: #fff;
   }
   50% {
-      color: #ff004f;
+    color: #ff004f;
   }
 }
 
 @keyframes zoominout {
   0%, 100% {
-      transform: scale(1);
+    transform: scale(1);
   }
   50% {
-      transform: scale(0.9);
+    transform: scale(0.9);
   }
 }

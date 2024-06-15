@@ -20,7 +20,7 @@ function TeamDetails() {
     { name: 'Morris Njuguna', title: 'Digital Analytics Specialist', img: 'https://via.placeholder.com/100' },
     { name: 'Victor Mwenda', title: 'Dev Operations + SEO', img: 'https://via.placeholder.com/100' },
     { name: 'Jackie Njogu', title: 'Accounts Executive', img: '/images/member/jackie.png' },
-    { name: 'Yvonne Ndichu', title: 'Social & Community Manager', img: '/images/member/yvonne.png' },
+    { name: 'Yvonne Ndichu', title: 'Social & Community Manager', img: '/images/member/yvonne.jfif' },
     { name: 'James Mbugua', title: 'Creative Director', img: 'https://via.placeholder.com/100' },
     { name: 'Eva Wangari', title: 'Media Buyer', img: 'https://via.placeholder.com/100' },
   ];
@@ -63,7 +63,7 @@ function TeamDetails() {
         {teamMembers.map((member, index) => (
           <div key={index} className="team-member">
             <img src={member.img} alt={member.name} />
-            <p>{member.name}</p>
+            <h3>{member.name}</h3>
             <p>{member.title}</p>
           </div>
         ))}

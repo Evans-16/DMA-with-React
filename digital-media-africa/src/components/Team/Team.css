@@ -27,6 +27,15 @@
   margin: 20px;
 }
 
+.team-member h3 {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.team-member p {
+  margin-top: 10px;
+}
+
 .team-member img {
   border-radius: 20%;
   width: 250px; 
@@ -34,17 +43,63 @@
 }
 
 button {
-  background-color: #4b4848f8;
+  background-color: #ff004f;
   color: black; 
   padding: 10px 20px; 
   font-size: 16px; 
   border: none; 
   border-radius: 10px; 
   cursor: pointer; 
-  margin-top: 40px;
+  margin-top: 35px;
 }
 
 button:hover {
-  background-color: #ff004f;
+  background-color: grey;
   color: black; 
+}
+
+@media (max-width: 1200px) {
+  .team-member {
+    flex: 1 1 45%;
+    max-width: 45%;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-member {
+    flex: 1 1 80%;
+    max-width: 80%;
+    margin: 10px 0;
+  }
+
+  .team-member img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  #team h2 {
+    font-size: 24px;
+  }
+
+  .team-member {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .team-member img {
+    max-width: 3000px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+  }
 }

@@ -6,7 +6,7 @@
 #faq h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #fff;
+    color: #333;
 }
 
 .faq-item {
@@ -26,7 +26,7 @@
 }
 
 .faq-question:hover {
-    background-color: #618080;
+    background-color: #ff004f;
 }
 
 .faq-answer {
